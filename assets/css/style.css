@@ -8,4 +8,18 @@
 
 body {
     font-family: 'Aclonica', sans-serif;
+    color: #7D7D7C;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family:'Aclonica', sans-serif;
+    letter-spacing: normal;
+    color: #5D5D5B;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
