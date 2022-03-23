@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Aclonica', sans-serif;
-    color: #7D7D7C;
+    color: #7d7d7c;
 }
 
 /* headings and logo */
@@ -16,10 +16,36 @@ body {
 h1, h2 {
     font-family:'Aclonica', sans-serif;
     letter-spacing: normal;
-    color: #5D5D5B;
+    color: #5d5d5b;
 }
 
 #logo {
     float: left;
     font-size: 280%;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110;
+    letter-spacing: normal;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #5d5d5b;
 }
