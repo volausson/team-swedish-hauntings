@@ -21,8 +21,8 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 260%;
-    margin-left: 30px;
+    font-size: 30px;
+    margin-left: 0px;
 }
 
 /* navigation links */
@@ -53,30 +53,36 @@ h1, h2 {
 
 /* hero-image */
 
-#hero-outer {
+#image-outer {
     height: 100%;
     width: 100%;
     overflow: hidden;  
-    
+    margin-left: 50px;  
 }
 
-#hero-image {
-    height: 600px;
-    width: 35%;
-    background: url('../images/hero.jpg') no-repeat center center;
-    background-size: cover;
-    margin-left: 30px;
-    
+.container {
+    display: flex;
+    align-items: left;
+    justify-content: center;
 }
 
-#header-one {
-    width: 60%;
-    line-height: 20px;
-    float: right;
-    clear: both;
-      
+img {
+    width: 75%;
+    height: 75%;
 }
 
+.image {
+    flex-basis: 100%;
+}
+
+.text {
+    padding: 30px;
+    font-size: 250%;
+    font-family: 'Aclonica', sans-serif;
+    color: #5d5d5b;
+    margin: 50px;
+    text-align: center;
+}
 /* sections */
 
 #about-us {
