@@ -54,7 +54,7 @@ h1, h2 {
 /* hero-image */
 
 #hero-outer {
-    height: 600px;
+    height: 100%;
     width: 100%;
     overflow: hidden;  
     
@@ -63,9 +63,18 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 35%;
-    background: url('../images/hero.jpg') center center;
+    background: url('../images/hero.jpg') no-repeat center center;
+    background-size: cover;
     margin-left: 30px;
     
+}
+
+#header-one {
+    width: 60%;
+    line-height: 20px;
+    float: right;
+    clear: both;
+      
 }
 
 /* sections */
@@ -74,8 +83,14 @@ h1, h2 {
     padding-top: 50px;
     height: 300px;
     width: 100;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+hr {
+    width: 100%;
+    margin: 5px 0;
 }
 
 #form {
@@ -93,9 +108,25 @@ h1, h2 {
 #about-heading {
     width: 60%;
     line-height: 20px;
+    text-align: center;
     clear: both;
     margin-bottom: 50px;
 }
 
+#form {
+width: 60%;
+    line-height: 20px;
+    text-align: center;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#contact {
+    width: 60%;
+    line-height: 20px;
+    text-align: center;
+    clear: both;
+    margin-bottom: 50px;
+}
 
 
