@@ -86,7 +86,7 @@ img {
 /* sections */
 
 #about-us {
-    padding-top: 50px;
+    padding-top: 20px;
     height: 300px;
     width: 100;
     margin-left: 20%;
@@ -116,7 +116,7 @@ hr {
     line-height: 20px;
     text-align: center;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 #form {
@@ -124,7 +124,7 @@ width: 60%;
     line-height: 20px;
     text-align: center;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 #contact {
@@ -135,4 +135,22 @@ width: 60%;
     margin-bottom: 50px;
 }
 
+/* footer */
 
+footer {
+    height: 150px;
+}
+
+.social-media {
+ text-align: center;   
+}
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 160%;
+    margin: 1px;
+    padding: 5%;
+    color: #5d5d5b;
+}
