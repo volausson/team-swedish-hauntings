@@ -59,21 +59,32 @@
         </div>
     </section>
 
-    <section id="form">
-        <div id="form-heading">
-        <h2>Signup Form</h2>
-        <hr>
-        
-    </div>
+    <section class="form-section">
+        <form method="post" action="https://formdump.codeinstitute.net/">
+            <h2>Signup Form</h2>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" required>
+
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required>
+
+            <input class="submit-button" type="submit" value="Submit">
+
+
+
+        </form>
     </section>
 
     <section id="contact">
         <div id="contact-heading">
-        <h2> Contact Information</h2>
-        <hr>
-        <p> If you have any questions related to our investigations feel free to contact us at</p>
-         <p> swedish.hauntings@gmail.com</p>
-    </div>
+            <h2> Contact Information</h2>
+            <hr>
+            <p> If you have any questions related to our investigations feel free to contact us at</p>
+            <p> swedish.hauntings@gmail.com</p>
+        </div>
     </section>
     <footer>
         <ul class="social-media">
@@ -87,7 +98,8 @@
             </li>
             <li>
                 <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-instagram-square"></i></a>
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram-square"></i></a>
             </li>
         </ul>
     </footer>
