@@ -81,31 +81,36 @@ img {
     padding-top: 10%;
     height: 600px;
     width: 100%;
-    margin-left: 20%;
     margin-top: 10%;
     text-align: center;
 }
 
 #text {
+    height: 600px;
+    margin-left: 20%;
+    text-align: center;
+}
+
+#text p {
+    width: 60%;
+    line-height: 20px;
+    text-align: center;
+   
+    margin: 20px;
+    
+}
+
+#text h1 {
     width: 60%;
     line-height: 20px;
     text-align: center;
     clear: both;
-    margin-bottom: 20px;
-    line-height: 20px;
+    margin-top: 20px; 
 }
-
-#text > h1 {
-    line-height: 20px;
-}
-
 
 #about-us {
-    padding-top: 20px;
     height: 600px;
-    width: 100%;
     margin-left: 20%;
-    margin-top: 10%;
     text-align: center;
 }
 
@@ -115,12 +120,10 @@ hr {
 }
 
 .form-section {
-    padding-top: 30px;
-    height: 600px;
-    width: 100%; 
-    margin-left: 20%;
-    margin-top: 10%;
-    text-align: center;   
+    clear: left;
+    background-size: cover;
+    background-position: center;
+    height: 600px;  
 }
 
 #contact {
@@ -160,12 +163,12 @@ width: 60%;
 
 
 .signup-form {
-    margin: 150px 10% 0 0;
     color: #5d5d5b;
     max-width: 400px;
     position:absolute;
     left:10%;
     padding: 30px;
+    text-align: center;
 }
 
 .signup-form h2 {
@@ -229,10 +232,17 @@ footer {
 /* for larger to medium screens 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #about-us, #contact, #intro {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
     }
+
+    hr {
+        display: none;
+    }
+
+
 }
 
 /* medium screens 950px wide and down */
@@ -253,11 +263,31 @@ footer {
         line-height: 25px;  
     }
 
-    #about-us, #contact, #intro {
+    #about-us {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
         line-height: 25px;
+    }
+
+    #contact {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+        line-height: 25px;
+    }
+
+    #intro {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+        line-height: 25px;
+    }
+
+    .signup-form  {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
     }
 
     
