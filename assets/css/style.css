@@ -114,7 +114,7 @@ hr {
     margin: 5px 0;
 }
 
-#form-section {
+.form-section {
     padding-top: 30px;
     height: 600px;
     width: 100%; 
@@ -158,12 +158,6 @@ width: 60%;
 
 /* form-section */
 
-.form-section {
-    clear: left;
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-}
 
 .signup-form {
     margin: 150px 10% 0 0;
@@ -187,6 +181,26 @@ width: 60%;
     margin: 5px 0 20px 0;
     border: 1px solid #5d5d5b;
     border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    
+}
+
+.submit-button:hover {
+    background-color: #fafafa;
+    color:#f16c6b;
 }
 
 
