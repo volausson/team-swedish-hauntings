@@ -161,3 +161,25 @@ footer {
     padding: 5%;
     color: #5d5d5b;
 }
+
+/* Media queries */
+
+/* for larger to medium screens 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #about-us {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+}
+
+/* medium screens 950px wide and down */
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
