@@ -21,7 +21,7 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 30px;
 }
 
@@ -75,20 +75,35 @@ img {
     flex-basis: 100%;
 }
 
-.text {
-    padding: 30px;
-    font-size: 150%;
-    font-family: 'Aclonica', sans-serif;
-    color: #5d5d5b;
-    margin: 50px;
+/* sections */
+
+#intro {
+    padding-top: 10%;
+    height: 600px;
+    width: 100%;
+    margin-left: 20%;
+    margin-top: 10%;
     text-align: center;
 }
-/* sections */
+
+#text {
+    width: 60%;
+    line-height: 20px;
+    text-align: center;
+    clear: both;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+#text > h1 {
+    line-height: 20px;
+}
+
 
 #about-us {
     padding-top: 20px;
-    height: 300px;
-    width: 100;
+    height: 600px;
+    width: 100%;
     margin-left: 20%;
     margin-top: 10%;
     text-align: center;
@@ -101,8 +116,8 @@ hr {
 
 #form-section {
     padding-top: 30px;
-    height: 300px;
-    width: 100; 
+    height: 600px;
+    width: 100%; 
     margin-left: 20%;
     margin-top: 10%;
     text-align: center;   
@@ -110,8 +125,8 @@ hr {
 
 #contact {
     
-    height: 300px;
-    width: 100;
+    height: 600px;
+    width: 100%;
     margin-left: 20%;
     margin-top: 10%;
     text-align: center;
@@ -141,6 +156,39 @@ width: 60%;
     margin-bottom: 20px;
 }
 
+/* form-section */
+
+.form-section {
+    clear: left;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #5d5d5b;
+    max-width: 400px;
+    position:absolute;
+    left:10%;
+    padding: 30px;
+}
+
+.signup-form h2 {
+    color: #5d5d5b;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background:transparent;
+    color: #5d5d5b;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #5d5d5b;
+    border-radius: 2px;
+}
+
 
 /* footer */
 
@@ -166,7 +214,7 @@ footer {
 
 /* for larger to medium screens 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #about-us, #contact {
+    #about-us, #contact, #intro {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -187,28 +235,23 @@ footer {
         clear: left;
         float: left;
         margin-left: 30px;
-        margin-bottom: 20px;  
+        margin-bottom: 20px;
+        line-height: 25px;  
     }
 
-    .container, .image {
-
-    }
-
-    #about-us, #contact {
+    #about-us, #contact, #intro {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
+        line-height: 25px;
     }
 
-    #about-heading, #form-heading, #contact-heading {
+    
+
+    #about-heading, #form-heading, #contact-heading, #text {
         width: inherit;
     }
     
-    .text {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto; 
-    }
     
 }
 
