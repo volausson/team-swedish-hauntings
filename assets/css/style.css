@@ -171,9 +171,10 @@ width: 60%;
     text-align: center;
 }
 
-.signup-form h2 {
+.signup-form > p {
     color: #5d5d5b;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .text-input {
