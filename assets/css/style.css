@@ -17,6 +17,7 @@ h1, h2 {
     font-family:'Aclonica', sans-serif;
     letter-spacing: normal;
     color: #5d5d5b;
+
 }
 
 #logo {
@@ -28,7 +29,7 @@ h1, h2 {
 /* navigation links */
 
 #menu {
-    font-size: 110;
+    font-size: 110%;
     letter-spacing: normal;
 }
 
@@ -95,12 +96,11 @@ img {
     width: 60%;
     line-height: 20px;
     text-align: center;
-   
     margin: 20px;
     
 }
 
-#text h1 {
+#text h2 {
     width: 60%;
     line-height: 20px;
     text-align: center;
@@ -236,7 +236,7 @@ footer {
 
 /* for larger to medium screens 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #about-us, #contact, #intro {
+    #about-us, #contact, #intro, .signup-form {
         clear: both;
         width: 100%;
         float: left;
