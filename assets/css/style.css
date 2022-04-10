@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Actor&display=swap');
 
 * {
-    margin: 0;
     padding: 0;
     border: none;
 }
@@ -55,10 +54,9 @@ h1, h2 {
 /* hero-image */
 
 #image-outer {
-    height: 75%;
     width: 100%;
     overflow: hidden;  
-    margin-left: 20%;  
+    margin-left: 13%;  
 }
 
 .container {
@@ -68,32 +66,43 @@ h1, h2 {
 }
 
 img {
-    width: 50%;
-    height: 50%;
+    width: 75%;
 }
 
 .image {
     flex-basis: 100%;
 }
 
+.img2, #img2 {
+    width: 25%;
+   
+    flex-basis: 100%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+#img2text {
+    text-align: left;
+    width: 50%;
+    margin-top: 3rem;
+    margin-left: 30%;
+}
+
+
 /* sections */
 
 #intro {
-    padding-top: 10%;
-    height: 600px;
     width: 100%;
-    margin-top: 10%;
     text-align: center;
 }
 
 #text {
-    height: 600px;
-    margin-left: 20%;
     text-align: center;
 }
 
 #text p {
-    width: 60%;
     line-height: 20px;
     text-align: center;
     margin: 20px;
@@ -101,7 +110,6 @@ img {
 }
 
 #text h2 {
-    width: 60%;
     line-height: 20px;
     text-align: center;
     clear: both;
@@ -109,8 +117,6 @@ img {
 }
 
 #about-us {
-    height: 600px;
-    margin-left: 20%;
     text-align: center;
 }
 
@@ -122,41 +128,31 @@ hr {
 .form-section {
     clear: left;
     background-size: cover;
-    background-position: center;
-    height: 600px;  
+    background-position: center; 
 }
 
 #contact {
-    
-    height: 600px;
-    width: 100%;
-    margin-left: 20%;
-    margin-top: 10%;
+     width: 100%;
+    margin-top: 2rem;
     text-align: center;
 }
 
 #about-heading {
-    width: 60%;
     line-height: 20px;
     text-align: center;
     clear: both;
-    margin-bottom: 20px;
 }
 
 #form-heading {
-width: 60%;
     line-height: 20px;
     text-align: center;
     clear: both;
-    margin-bottom: 20px;
 }
 
 #contact-heading {
-    width: 60%;
     line-height: 20px;
     text-align: center;
     clear: both;
-    margin-bottom: 20px;
 }
 
 /* form-section */
