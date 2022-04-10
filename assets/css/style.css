@@ -160,8 +160,6 @@ hr {
 
 .signup-form {
     color: #5d5d5b;
-    max-width: 400px;
-    position:absolute;
     left:10%;
     padding: 30px;
     text-align: center;
@@ -223,7 +221,6 @@ footer {
 
 .social-media i {
     font-size: 160%;
-    margin: 1px;
     padding: 5%;
     color: #5d5d5b;
 }
