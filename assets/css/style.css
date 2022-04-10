@@ -261,30 +261,22 @@ footer {
     }
 
     #about-us {
-        width: 90%;
-        height: 1200px;
         margin: 0 auto;
         line-height: 25px;
     }
 
     #contact {
-        width: 90%;
-        height: 1200px;
         margin: 0 auto;
         line-height: 25px;
     }
 
     #intro {
-        width: 90%;
-        height: 1200px;
         margin: 0 auto;
         line-height: 25px;
     }
 
     .signup-form  {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
+        margin: 2rem; 
     }
 
     
