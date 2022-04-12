@@ -280,7 +280,9 @@ footer {
         margin: 2rem; 
     }
 
-    
+    #logo {
+        font-size: 20px;
+    }
 
     #about-heading, #form-heading, #contact-heading, #text {
         width: inherit;
@@ -289,3 +291,8 @@ footer {
     
 }
 
+@media screen and (max-width: 500px) {
+    #logo {
+        font-size: 16px;
+    }
+}
