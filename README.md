@@ -1,6 +1,6 @@
 # **Team Swedish Hauntings**
 
-### The 'Team Swedish Hauntings' website is directed to anyone who finds an interest in paranormal activity.
+### The 'Team Swedish Hauntings' website is directed to anyone who finds an interest in the paranormal.
 ### The site gives the user a short descrition about the team and it's founder and provides contact information and also an opportunity to join the team.
 
 ![This is an image](assets/images/FireShot%20Capture%20006%20-%20Multi%20Device%20Website%20Mockup%20Generator%20-%20techsini.com.png)
@@ -24,16 +24,24 @@
 ### This section also includes a photograph of a rare paranormal phenomenon documented during an investigation.
 
 ## Sign up
-### This section offers membership to thoose who find an interest in the paranormal.
+### This section offers membership to thoose who find an interest in the paranormal, wich entails being able to join investigators out in the field.
 
-## Room for improvement
+## contact
+### This section gives information on how to contact the team.
+
+## Footer
+### The footer contains links to social media where the team can be found.
+
+## Features left to implement
+### The is plenty of room to expand the site. For example, the section "about us" has room for a longer more in depht text about the team and how they work. The image with the rare phenomena shuold have a section of its own where more stories and documentation from investigations could be shared with the users.
+### There should also be a section for users to interact with each other and share their own paranormal stories and experiences.
 
 
 # Testing
 
 ### - The page have been tested in different browsers as Chrome, Safari and Firefox.
 ### - I tested the page using devtools and cofirmed it responsive on standard screen sizes.
-### - Navigation and  header are easy to read and understand and works as expected.
+### - Both navigation and  header are easy to read and understand, and works as expected.
 ### - The form works, it requiers entries in all fields an will only accept an email address in the email field and the submission button works.
 
 
@@ -49,6 +57,7 @@
 ![this is an image](assets/images/FireShot%20Capture%20007%20-%20Lighthouse%20Report%20Viewer%20-%20googlechrome.github.io.png)
 
 # Bugs
+
 # Deployment
 ### The site was deployed to GitHub pages. The steps to deploy are as follows:
 ### 1. In the GitHub repository, navigate to the Settings tab
@@ -60,6 +69,7 @@ https://volausson.github.io/team-swedish-hauntings/
 # Credits
 ## Content
 ### The code for the form and social media links was from the "Love Running" project. 
+### A lot of help an advice has been found and given on Slack and overflow.
 ### the font used in the project is from google fonts (https://fonts.google.com/)
 ## Media
 ### The images used in the project are my own private photos, and the person in the images have given permission to be published.
