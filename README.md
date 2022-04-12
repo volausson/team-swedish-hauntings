@@ -30,6 +30,12 @@
 
 
 # Testing
-## 
+## Validator testing
+
+### The page have been tested in different browsers as Chrome, Safari and Firefox.
+### I tested the page using devtools and cofirmed it responsive on standard screen sizes.
+### Navigation and  header are easy to read and understand and works as expected.
+
+
 
 
