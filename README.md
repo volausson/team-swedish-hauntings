@@ -7,15 +7,15 @@
 
 # Features
 ## Header
-### -In the top left corner of the page you will    find the name of the website: **Team Swedish Hauntings**.
+### In the top left corner of the page you will    find the name of the website: **Team Swedish Hauntings**.
 ## Navigation Bar
-### -In the top right corner of the web site the navigation bar is located. Here you will find links to the different sections of the website such as 'About Us' 'Sign Up' and 'Contact'.
+### In the top right corner of the web site the navigation bar is located. Here you will find links to the different sections of the website such as 'About Us' 'Sign Up' and 'Contact'.
 
 ![This is an image](assets/images/FireShot%20Capture%20009%20-%20Team%20Swedish%20Hauntings%20-%20volausson.github.io.png)
 
 # Team Swedish Hauntings
 ## Introduction
-### This section contains a photograf of the founder of **Team Swedish Hauntings** With the tea logo in the background. Underneath the image you will find a short description of what the website is about.
+### This section contains a photograph of the founder of **Team Swedish Hauntings** With the team logo in the background. Underneath the image you will find a short description of what the website is about.
 ![This is an image](assets/images/tshlogga.jpg)
 
 ## About Us
@@ -33,14 +33,14 @@
 ### The footer contains links to social media where the team can be found.
 
 ## Features left to implement
-### The is plenty of room to expand the site. For example, the section "about us" has room for a longer more in depht text about the team and how they work. The image with the rare phenomena shuold have a section of its own where more stories and documentation from investigations could be shared with the users.
+### There is plenty of room to expand the site. For example, the section "about us" has room for a longer more in depht text about the team and how they work. The image with the rare phenomena should have a section of its own where more stories and documentation from investigations could be shared with the users.
 ### There should also be a section for users to interact with each other and share their own paranormal stories and experiences.
 
 
 # Testing
 
 ### - The page have been tested in different browsers as Chrome, Safari and Firefox.
-### - I tested the page using devtools and cofirmed it responsive on standard screen sizes.
+### - I tested the page using devtools and confirmed it responsive on standard screen sizes.
 ### - Both navigation and  header are easy to read and understand, and works as expected.
 ### - The form works, it requiers entries in all fields an will only accept an email address in the email field and the submission button works.
 
@@ -56,7 +56,6 @@
 ### - Accessibilty  have been checked by the use of lighthouse in devtools.
 ![this is an image](assets/images/FireShot%20Capture%20007%20-%20Lighthouse%20Report%20Viewer%20-%20googlechrome.github.io.png)
 
-# Bugs
 
 # Deployment
 ### The site was deployed to GitHub pages. The steps to deploy are as follows:
